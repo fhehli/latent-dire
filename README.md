@@ -1,13 +1,13 @@
 # Latent DIRE
 
-Implementing the DIRE method with an auto encoder
+Computing [DIRE](https://arxiv.org/abs/2303.09295) features in latent space.
 
 # Pipeline
 
 1. Image (either real image or generated from a Generative Model, ADM or GAN)
-2. Encode Image
+2. Encode
 3. Invert Image and Reconstruct it
-4. Compute DIRE with the reconstructed-latent image and then with the decoder image
+4. Compute DIRE with the reconstructed-latent image or then with the decoder image
 
 ---
 
